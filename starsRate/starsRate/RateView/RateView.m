@@ -89,4 +89,9 @@
     }
 }
 
+- (void)setPostion:(CGPoint)postion{
+    self.center = CGPointMake(postion.x + self.bounds.size.width/2, postion.y+self.bounds.size.height/2);
+}
+
+
 @end

@@ -26,6 +26,7 @@
  */
 -(instancetype)initWithDeaultStar:(NSInteger)starNum andisModify:(BOOL)isModify;
 
+- (void)setPostion:(CGPoint)postion;
 
 @end
 

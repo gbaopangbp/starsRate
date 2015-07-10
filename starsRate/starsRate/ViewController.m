@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     RateView *rateView = [[RateView alloc] initWithDeaultStar:3 andisModify:YES];
     [self.view addSubview:rateView];
+    [rateView setPostion:CGPointMake(100, 300)];
 }
 
 - (void)didReceiveMemoryWarning {
